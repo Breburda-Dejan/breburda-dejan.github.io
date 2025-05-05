@@ -1,32 +1,31 @@
 <!DOCTYPE html>
 <html lang="de" data-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0">
-    <meta name="description" content="Sie suchen informationen über den Berühmt berüchtigten Dejan Breburda, hier finden Sie alles was ihr Herz begehrt, von Dejans Projekten, bis hin zu seinen Skills.">
-    <meta name="keywords" content="Dejan Breburda, Breburda Dejan, Dejan, Breburda">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0" />
+    <meta name="description" content="Portfolio von Dejan Breburda – Projekte, Skills und mehr." />
+    <meta name="keywords" content="Dejan Breburda, Breburda Dejan, Dejan, Breburda" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#000000">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#000000" />
 
     <title>Dejan Breburda</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="styles.css" rel="stylesheet">
-    
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <h1>Dejan Breburda</h1>
-            <p>Developer</p>
+            <h1 data-i18n="name">Dejan Breburda</h1>
+            <p data-i18n="role">Entwickler</p>
             <div class="social-links">
                 <a href="https://github.com/Breburda-Dejan/"><i data-feather="github"></i></a>
                 <a href="https://www.linkedin.com/in/dejan-breburda-91165334b"><i data-feather="linkedin"></i></a>
@@ -37,52 +36,53 @@
 
     <section class="about">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <p style="text-align: center; max-width: 800px; margin: 0 auto;">
+            <h2 class="section-title" data-i18n="about">Über mich</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto;" data-i18n="about-text">
                 Ich bin ein motivierter Entwickler, der sich aktuell noch in der Schule befindet und bereits erste Erfahrungen in der Programmierung gesammelt hat.
                 Mein Fokus liegt auf Python und Java. Besonders begeistert mich das kreative Lösen von Problemen und das Eintauchen in komplexe Details –
-				ich arbeite gerne detailorientiert und bin immer bereit, Neues zu lernen.
+                ich arbeite gerne detailorientiert und bin immer bereit, Neues zu lernen.
             </p>
         </div>
     </section>
 
     <section class="projects">
         <div class="container">
-            <h2 class="section-title">My Projects</h2>
+            <h2 class="section-title" data-i18n="my-projects">Meine Projekte</h2>
             <div class="project-grid">
-			<!--
-                <div class="project-card">
+			
+                <div class="project-card" onclick="window.location.href='https://projects.htl-klu.at/Projekt_2425/pr5bhel24011/Homepage/index.html'">
                     <div class="project-image">
-                        <i data-feather="dollar-sign" style="width: 48px; height: 48px;"></i>
+                        <i data-feather="server" style="width: 48px; height: 48px;"></i>
                     </div>
                     <div class="project-content">
-                        <h3 class="project-title">Name</h3>
-                        <p class="project-description">
-							Description
+                        <h3 class="project-title">NetVision</h3>
+                        <p class="project-description" data-i18n="netvision-description">
+                            NetVision ist ein Netzwerkdokumentationstool, das Switch-Konfigurationen automatisch ausliest und die Netzwerktopologie übersichtlich in einer Weboberfläche darstellt – ideal zur Unterstützung von Administratoren in Bildungseinrichtungen.
                         </p>
                         <div class="project-tags">
                             <span class="tag">Python</span>
                         </div>
-                        <a href="./link/to/project" class="project-link">
-                            View Project <i data-feather="external-link" style="width: 16px;"></i>
+                        <a href="https://projects.htl-klu.at/Projekt_2425/pr5bhel24011/Homepage/index.html" class="project-link">
+                            <span data-i18n="view-project">Projekt ansehen</span>
+                            <i data-feather="external-link" style="width: 16px;"></i>
                         </a>
                     </div>
                 </div>
-				-->
+				
             </div>
         </div>
     </section>
 
     <section class="contact">
         <div class="container">
-            <h2 class="section-title">Get in Touch</h2>
+            <h2 class="section-title" data-i18n="get-in-touch">Kontakt aufnehmen</h2>
             <div class="contact-content">
-                <p style="margin-bottom: 30px;">
-                    I'm always interested in hearing about new projects and opportunities.
-                    Feel free to reach out!
+                <p style="margin-bottom: 30px;" data-i18n="contact-message">
+                    Ich bin immer an neuen Projekten interessiert. Einfach melden!
                 </p>
                 <a href="mailto:dejan@breburda.at" class="contact-btn">
-                    Send Message <i data-feather="mail"></i>
+                    <span data-i18n="send-message">Nachricht senden</span>
+                    <i data-feather="mail"></i>
                 </a>
             </div>
         </div>
@@ -95,28 +95,56 @@
     </footer>
 
     <script>
-        // Initialize Feather icons
         feather.replace();
 
-        // Add smooth scroll behavior
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
+            anchor.addEventListener("click", function (e) {
                 e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
+                document.querySelector(this.getAttribute("href")).scrollIntoView({ behavior: "smooth" });
             });
         });
 
-        // Add animation to project cards
-        anime({
-            targets: '.project-card',
-            translateY: [50, 0],
-            opacity: [0, 1],
-            duration: 1000,
-            delay: anime.stagger(200),
-            easing: 'easeOutQuad'
-        });
+
+        const translations = {
+            de: {
+                name: "Dejan Breburda",
+                role: "Entwickler",
+                about: "Über mich",
+                "about-text": "Ich bin ein motivierter Entwickler, der bereits erste Erfahrungen in der Programmierung gesammelt hat. Mein Fokus liegt auf Python und Java. Besonders begeistert mich das kreative Lösen von Problemen und das Eintauchen in komplexe Details – ich arbeite gerne detailorientiert und bin immer bereit, Neues zu lernen.",
+                "my-projects": "Meine Projekte",
+                "netvision-description": "NetVision ist ein Netzwerkdokumentationstool, das Switch-Konfigurationen automatisch ausliest und die Netzwerktopologie übersichtlich in einer Weboberfläche darstellt – ideal zur Unterstützung von Administratoren in Bildungseinrichtungen.",
+                "get-in-touch": "Kontakt aufnehmen",
+                "contact-message": "Bei Fragen stehe ich gerne zur Verfügung.",
+                "send-message": "Nachricht senden",
+                "view-project": "Mehr erfahren"
+            },
+            en: {
+                name: "Dejan Breburda",
+                role: "Developer",
+                about: "About Me",
+                "about-text": "I’m a motivated developer with experience in programming, specializing in Python and Java. I’m especially passionate about creatively solving problems and diving into complex details – I work with great attention to detail and always strive to learn new things.",
+                "my-projects": "My Projects",
+                "netvision-description": "NetVision is a network documentation tool that automatically reads switch configurations and clearly visualizes the network topology in a web interface – ideal for supporting administrators in educational environments.",
+                "get-in-touch": "Get in Touch",
+                "contact-message": "I'm always interested in hearing about new projects. Feel free to reach out!",
+                "send-message": "Send Message",
+                "view-project": "Learn More"
+            }
+        };
+
+        document.addEventListener("DOMContentLoaded", () => {
+			console.log("Detected language:", navigator.language);
+
+			const userLang = navigator.language.startsWith("de") ? "de" : "en";
+
+			document.querySelectorAll("[data-i18n]").forEach(el => {
+				const key = el.getAttribute("data-i18n");
+				if (translations[userLang] && translations[userLang][key]) {
+					el.textContent = translations[userLang][key];
+				}
+			});
+		});
+
     </script>
 </body>
 </html>
