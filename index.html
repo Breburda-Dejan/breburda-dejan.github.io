@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0" />
     <meta name="description" content="Portfolio von Dejan Breburda – Projekte, Skills und mehr." />
-    <meta name="keywords" content="Dejan Breburda, Breburda Dejan, Dejan, Breburda" />
+    <meta name="keywords" content="Dejan Breburda, Breburda Dejan, Dejan, Breburda, Netvision, NetVision, Net vision, Netzwerkdokumentationstool, Htl Mössingerstraße" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -50,24 +50,31 @@
             <h2 class="section-title" data-i18n="my-projects">Meine Projekte</h2>
             <div class="project-grid">
 			
-                <div class="project-card" onclick="window.location.href='https://projects.htl-klu.at/Projekt_2425/pr5bhel24011/Homepage/index.html'">
-                    <div class="project-image">
-                        <i data-feather="server" style="width: 48px; height: 48px;"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">NetVision</h3>
-                        <p class="project-description" data-i18n="netvision-description">
-                            NetVision ist ein Netzwerkdokumentationstool, das Switch-Konfigurationen automatisch ausliest und die Netzwerktopologie übersichtlich in einer Weboberfläche darstellt – ideal zur Unterstützung von Administratoren in Bildungseinrichtungen.
-                        </p>
-                        <div class="project-tags">
-                            <span class="tag">Python</span>
-                        </div>
-                        <a href="https://projects.htl-klu.at/Projekt_2425/pr5bhel24011/Homepage/index.html" class="project-link">
-                            <span data-i18n="view-project">Projekt ansehen</span>
-                            <i data-feather="external-link" style="width: 16px;"></i>
-                        </a>
-                    </div>
-                </div>
+			
+				<div class="project-card" role="region" aria-label="NetVision Project">
+					<div class="project-image">
+						<i data-feather="server" style="width: 48px; height: 48px;"></i>
+					</div>
+					<div class="project-content">
+						<h3 class="project-title">NetVision</h3>
+						<p class="project-description" data-i18n="netvision-description">
+							NetVision ist ein Netzwerkdokumentationstool, das Switch-Konfigurationen automatisch ausliest und die Netzwerktopologie übersichtlich in einer Weboberfläche darstellt – ideal zur Unterstützung von Administratoren in Bildungseinrichtungen.
+						</p>
+						<div class="project-tags">
+							<span class="tag">Python</span>
+						</div>
+						<div class="project-buttons" style="margin-top: 1rem; display: flex; gap: 1rem;">
+							<a href="https://projects.htl-klu.at/Projekt_2425/pr5bhel24011/Homepage/index.html" rel="noopener noreferrer" class="btn btn-primary" data-i18n="view-project" aria-label="Live project">
+								<span data-i18n="view-project">Projekt ansehen</span>
+								<i data-feather="external-link" style="width: 16px; margin-left: 0.25rem;"></i>
+							</a>
+							<a href="https://github.com/Breburda-Dejan/NetVision" rel="noopener noreferrer" class="btn btn-secondary" data-i18n="project-code" aria-label="GitHub repository">
+								<span data-i18n="project-code">Projekt ansehen</span>
+								<i data-feather="github" style="width: 16px; margin-left: 0.25rem;"></i>
+							</a>
+						</div>
+					</div>
+				</div>
 				
             </div>
         </div>
@@ -116,7 +123,8 @@
                 "get-in-touch": "Kontakt aufnehmen",
                 "contact-message": "Bei Fragen stehe ich gerne zur Verfügung.",
                 "send-message": "Nachricht senden",
-                "view-project": "Mehr erfahren"
+                "view-project": "Mehr erfahren",
+				"project-code": "Zum Projektcode"
             },
             en: {
                 name: "Dejan Breburda",
@@ -128,7 +136,8 @@
                 "get-in-touch": "Get in Touch",
                 "contact-message": "I'm always interested in hearing about new projects. Feel free to reach out!",
                 "send-message": "Send Message",
-                "view-project": "Learn More"
+                "view-project": "Learn More",
+				"project-code": "To the project code"
             }
         };
 
