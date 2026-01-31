@@ -1,6 +1,8 @@
 User-agent:*
 Disallow:/fonts
-Disallow:/headsoccer
+Disallow:/projects
+Disallow:/scripts
+Disallow:./breburda.png
 Disallow:./humans.txt
 
 Sitemap: https://breburda.at/sitemap.xml
