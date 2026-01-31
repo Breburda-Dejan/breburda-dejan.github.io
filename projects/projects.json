@@ -1,0 +1,22 @@
+[
+  {
+    "id": "netvision",
+    "title": "NetVision",
+    "icon": "server",
+    "descriptionKey": "netvision-description",
+    "tags": ["Python"],
+    "screenshot":"projects/screenshots/netvision.png",
+    "liveUrl": "https://projects.htl-klu.at/Projekt_2425/pr5bhel24011/Homepage/index.html",
+    "codeUrl": "https://github.com/Breburda-Dejan/NetVision"
+  },
+  {
+    "id": "colline-scanner",
+    "title": "Colline-Scanner",
+    "icon": "server",
+    "descriptionKey": "colline-scanner-description",
+    "tags": ["Javascript","HTML","CSS"],
+    "screenshot":"projects/screenshots/colline-scanner.png",
+    "liveUrl": "https://desimonech18-rgb.github.io/oil-up",
+    "codeUrl": "https://github.com/desimonech18-rgb/oil-up"
+  }
+]
