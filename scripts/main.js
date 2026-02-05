@@ -40,7 +40,7 @@ const translations = {
         "project-code": "Zum Projektcode",
         "projects-subtitle":"Eine Auswahl meiner neuesten Arbeiten",
         "netvision-description": "NetVision ist ein Netzwerkdokumentationstool, das Switch-Konfigurationen automatisch ausliest und die Netzwerktopologie übersichtlich in einer Weboberfläche darstellt - ideal zur Unterstützung von Administratoren in Bildungseinrichtungen.",
-        "colline-scanner-description":"Colline Scanner ist eine Webanwendung, die QR-Codes von Produkten der Firma „Colline degli Ulivi di Daniele De Simone“ scannt und diese automatisch in einem Warenkorb erfasst. Ziel der Anwendung ist es, den Verkaufsprozess zu vereinfachen und effizienter zu gestalten."
+        "colline-scanner-description":"Colline Scanner ist eine Webanwendung, die QR-Codes von Produkten einer Firma scannt und diese automatisch in einem Warenkorb erfasst. Ziel der Anwendung ist es, den Verkaufsprozess zu vereinfachen und effizienter zu gestalten."
     },
     en: {
         name: "Dejan Breburda",
@@ -57,7 +57,7 @@ const translations = {
         "project-code": "To the project code",
         "projects-subtitle":"A selection of my latest work",
         "netvision-description": "NetVision is a network documentation tool that automatically reads switch configurations and clearly visualizes the network topology in a web interface - ideal for supporting administrators in educational environments.",
-        "colline-scanner-description":"Colline Scanner is a web application that scans QR codes of products from the company “Colline degli Ulivi di Daniele De Simone” and automatically adds them to a shopping cart. The goal of the application is to streamline and simplify the sales process."
+        "colline-scanner-description":"Colline Scanner is a web application that scans QR codes of products from a company and automatically adds them to a shopping cart. The goal of the application is to streamline and simplify the sales process."
     }
 };
 
